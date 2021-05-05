@@ -1,0 +1,77 @@
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing: border-box;
+} 
+
+/* body rules here */
+body {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
+/*header rules here */
+header {
+    background-color:rgb(148, 143, 77);
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+}
+header h2 {
+    margin: 0;
+}
+
+/* navigation rules here */
+nav {background-color: #111;}
+nav ul {margin: 0; padding: 0;}
+nav li {list-style-type: none;}
+nav li.active {background-color: #333;}
+
+nav a {
+    display: block;
+    padding:  .8rem 0;  /* 44 min height */
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {background-color: #444;}
+
+
+/* mainn rules here */
+main {
+    padding: 1rem 2%;
+    display: block;
+}
+main h1 {color:goldenrod;}
+
+main figure img {width: 100%;}
+main figure {
+    width: 100%;
+    margin: 0;
+}
+main figcaption {text-align: center; font-size: .8rem;}
+
+
+/* footre rules here */
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color:rgb(148, 143, 77);
+
+}
+footer span {
+    color: rgb(42, 236, 236);
+}
+
+
+
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
